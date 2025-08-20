@@ -2,16 +2,6 @@
 
 A full-stack application for predicting Vietnamese stock prices using machine learning with FastAPI backend and Streamlit frontend.
 
-├── 📁 backend/
-│   ├── 📁 __pycache__/ 🚫 (auto-hidden)
-│   ├── 🔒 .env 🚫 (auto-hidden)
-│   ├── 📄 .env.example
-│   ├── 🚫 .gitignore
-│   └── 🐍 main.py
-├── 📁 frontend/
-│   └── 🐍 dashboard.py
-└── 📖 README.md
-
 ## 🚀 Features
 
 - **Stock Price Prediction**: AI-powered predictions for Vietnamese stocks (ACB, FPT, VNM)

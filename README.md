@@ -207,14 +207,38 @@ The application includes comprehensive error handling:
 
 ### Project Structure
 ```
-Project/
-├── backend/
-│   ├── main.py              # FastAPI application
-│   ├── .env.example         # Environment template
-│   └── .gitignore          # Git ignore rules
-├── frontend/
-│   └── dashboard.py         # Streamlit dashboard
-└── README.md               # This file
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 .venv/ 🚫 (auto-hidden)
+├── 📁 backend/
+│   ├── 📁 __pycache__/ 🚫 (auto-hidden)
+│   ├── 📁 models/
+│   │   ├── 📄 ACB_classifier.pkl
+│   │   ├── 📄 ACB_price_model.pkl
+│   │   ├── 📄 FPT_classifier.pkl
+│   │   ├── 📄 FPT_price_model.pkl
+│   │   ├── 📄 VNM_classifier.pkl
+│   │   └── 📄 VNM_price_model.pkl
+│   ├── 📁 models_advanced/
+│   │   ├── 📄 ACB_advanced_models.pkl
+│   │   ├── 📄 ACB_classifier.pkl
+│   │   ├── 📄 ACB_price_model.pkl
+│   │   ├── 📄 FPT_advanced_models.pkl
+│   │   ├── 📄 FPT_classifier.pkl
+│   │   ├── 📄 FPT_price_model.pkl
+│   │   ├── 📄 VNM_advanced_models.pkl
+│   │   ├── 📄 VNM_classifier.pkl
+│   │   └── 📄 VNM_price_model.pkl
+│   ├── 🔒 .env 🚫 (auto-hidden)
+│   ├── 📄 .env.example
+│   ├── 🚫 .gitignore
+│   ├── 📄 howtoreun.example.txt
+│   ├── 🐍 main.py
+│   ├── 🐍 train_model.py
+│   └── 🐍 train_model_advanced.py
+├── 📁 frontend/
+│   ├── 🐍 dashboard.py
+│   └── 📄 howtorun.example.txt
+└── 📖 README.md
 ```
 
 ### Adding New Features
